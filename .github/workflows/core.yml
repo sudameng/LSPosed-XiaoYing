@@ -8,7 +8,7 @@ on:
         required: true
         type: boolean
   push:
-    branches: [ 1master ]
+    branches: [ master ]
     tags: [ v* ]
   pull_request:
   merge_group:
